@@ -1,4 +1,4 @@
-export function CV({ name, currentRole, jobHistory }) {
+export function CV({ name, currentRole, jobHistory }: { name: string; currentRole: string; jobHistory: string[] }) {
     return (
         <>
             <h1>{name}</h1>
