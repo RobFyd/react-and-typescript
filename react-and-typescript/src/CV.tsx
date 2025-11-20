@@ -1,4 +1,10 @@
-export function CV({ name, currentRole, jobHistory }: { name: string; currentRole: string; jobHistory: string[] }) {
+interface CVProps {
+    name: string;
+    currentRole: string;
+    jobHistory: string[];
+}
+
+export function CV({ name, currentRole, jobHistory }: CVProps) {
     return (
         <>
             <h1>{name}</h1>
